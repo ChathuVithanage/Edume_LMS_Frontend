@@ -44,7 +44,7 @@ const S_Assingment = () => {
       <div className='flex p-3 justify-start flex-wrap '>
       <h2 className='mt-20 ml-8 text-lg'>Assignments List</h2>
       
-      <div className=' mt-2'>
+      <div className=' mt-24'>
       <ul className=' '> 
         {pdfs.map((pdf) => (
           
@@ -53,11 +53,11 @@ const S_Assingment = () => {
              
              {getFileIcon(pdf.fileExtension)}
 
-             <button className=' mx-4 my-2 bg-blue-700 text-white px-6 py-2 rounded-lg font-semibold'>
+             <button className=' mx-4 my-3 bg-blue-700 text-white px-3 py-1 rounded-sm font-semibold hover:bg-white hover:border-2 hover:border-blue-700 hover:text-blue-700'>
              <a href={`http://localhost:3002/files/${pdf.filename}`} download>View Assignment</a>
              </button>
 
-             <button onClick={() => (window.location.pathname = "/s_dashbord/s_assingmentPage/s_UploadAssignmentWork")} className=' mx-20 border-2 border-green-700 px-3 py-1 rounded-lg'>Upload Your work</button>
+             <button onClick={() => (window.location.pathname = "/s_dashbord/s_assingmentPage/s_UploadAssignmentWork")} className=' mx-20 border-2 border-green-700 text-green-700 font-semibold my-3 px-3 py-1 rounded-md'>Upload Your work</button>
           </li>
         ))}
         </ul>
