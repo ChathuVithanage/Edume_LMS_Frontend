@@ -1,16 +1,16 @@
 import React from 'react'
 import S_Header from './s_component/S_Header'
 import S_Footer from './s_component/S_Footer'
-import S_ViewAssignment from './s_component/S_ViewAssignment'
+import S_AssignmentWork from './s_component/S_AssignmentWork'
 
-function S_ViewAssignmentDetails() {
+function S_UploadAssignmentWork() {
   return (
     <div>
       <S_Header/>
-      <S_ViewAssignment/>
+      <S_AssignmentWork/>
       <S_Footer/>
     </div>
   )
 }
 
-export default S_ViewAssignmentDetails;
+export default S_UploadAssignmentWork;

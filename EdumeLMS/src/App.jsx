@@ -18,7 +18,7 @@ import { useAuthContext } from './hooks/useAuthContext';
 import S_PaymentSlip from './pages/Student/S_PaymentSlip';
 import T_AssigmentUpload from './pages/Teacher/T_AssignmentUpload';
 import AboutUs_Page from './pages/AboutUs_Page';
-import S_ViewAssignmentDetails from './pages/Student/S_ViewAssignmentDetails';
+import S_UploadAssignmentWork from './pages/Student/S_UploadAssignmentWork';
 
 
 function App() {
@@ -48,7 +48,8 @@ function App() {
           <Route exact path='/s_dashbord/s_personalResultPage' element={<S_PersonalResultPage/>}/>
           <Route exact path='/s_PaymentSlip' element={<S_PaymentSlip/>}/>
           <Route exact path='/t_dashboard/t_AssignmentUpload' element={<T_AssigmentUpload/>}/>
-          <Route exact path='/s_viewAssignmentDetails' element={<S_ViewAssignmentDetails/>}/>
+          <Route exact path='/s_dashbord/s_assingmentPage/s_UploadAssignmentWork' element={<S_UploadAssignmentWork/>}/>
+          
           
         </Routes>
       </Router>
