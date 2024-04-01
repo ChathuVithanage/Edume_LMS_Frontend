@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* about us page background image */
+.bg-hero {
+    background-image: theme('backgroundImage.hero');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+   
+  }
+  
